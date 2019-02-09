@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body{
+	background-image:url('./bridge.png');
+}
+
+.login{
+	left:30%;
+}
+
+.login-image img{
+	width: 200px;
+}
+
+.left-menu{
+	width:50px;
+	height: 900px;
+    background-color: black;
+	
+}
+
+.side ul{
+	list-style:none;
+	padding: 0px;
+    line-height: 50px;
+}
+
+.side {
+    background-color: #434343;
+    height: 894px;
+	width:100px;
+}
+
+.common-menu{
+background-color: #434343;
+    height: 50px;
+}
+
+.top-menu i{
+	color: #bbbbbb;
+    margin: 15px;
+	float:right;
+}
+
+
+.popup-backdrop {
+    position: absolute;
+    right: 165px;
+}
+.popup{
+	background-color: white;
+    padding: 20px;
+}
